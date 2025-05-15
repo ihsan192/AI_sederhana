@@ -16,7 +16,7 @@ function getResponse() {
   } else if (input.toLowerCase().indexOf("depok - tasikmalaya") !== -1) {
     output.innerHTML = "06:40 - 17:50";
   } else if (input.toLowerCase().indexOf("jakarta - bandung") !== -1) {
-    output.innerHTML = "07:10 - 18:30";
+    output.innerHTML = "07:10 - 14:30";
   } else {
     output.innerHTML = "Maaf, tidak ada rute perjalanan ini, mungkin bisa yang lain";
   }
